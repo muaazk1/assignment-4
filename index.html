@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+  Name: Mu'aaz Khan
+  Date: 10.14.2026
+  CSC 372-01
+
+  This is the index.html page for assignment 4. It contains the HTML structure for the TVmaze Show Gallery application, 
+  including a search form, a message display area, and a gallery section to display show results. 
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TVmaze Show Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>TVmaze Show Gallery</h1>
+    </header>
+
+    <form id="search-form">
+        <label for="search-query">Show title or keyword</label>
+        <input id="search-query" type="text">
+        <button>Search</button>
+    </form>
+
+    <p id="message"></p>
+    <div id="gallery"></div>
+
+    <footer>
+        Data from <a href="https://www.tvmaze.com/">TVmaze.com</a>,
+        licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>.
+    </footer>
+</body>
+
+</html>

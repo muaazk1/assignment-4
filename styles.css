@@ -1,0 +1,90 @@
+/*
+  Name: Mu'aaz Khan
+  Date: 10.14.2026
+  CSC 372-01
+
+  This is the styles.css file for assignment 4. It contains all required styles for the site.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f2f4f7;
+  color: #222;
+}
+
+header {
+  background-color: #354dc9;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.card {
+  flex: 1 1 300px;
+  max-width: 450px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#search-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+#search-query {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #b0b8c4;
+  border-radius: 6px;
+}
+
+#search-form button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: #2d6cdf;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#search-form label {
+  font-weight: bold;
+}
+
+#search-query:focus {
+  outline: none;
+  border-color: #2d6cdf;
+}
+
+#search-form button:hover {
+  background: #1f4fae;
+}
